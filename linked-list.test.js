@@ -135,7 +135,7 @@ describe("removeAt", function() {
   });
 });
 
-describe("average", function() {
+describe.only("average", function() {
   it("calculates the average of items in a list", function() {
     let lst = new LinkedList([2, 3, 1, 1, 7, 6, 9]);
     expect(lst.average()).toBeCloseTo(4.1429, 4);
